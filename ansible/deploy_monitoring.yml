@@ -1,0 +1,12 @@
+- hosts: monitoring
+  become: yes
+  tasks:
+    - name: Copy compose
+      copy:
+        src: docker-compose.yml
+        dest: /opt/monitoring/docker-compose.yml
+
+    - name: Start monitoring
+      shell: docker compose up -d
+      args:
+        chdir: /opt/monitoring
