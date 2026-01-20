@@ -7,3 +7,4 @@
         image: <ECR_URI>
         ports:
           - "80:80"
+          
