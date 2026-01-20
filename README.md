@@ -13,7 +13,7 @@ This project implements a complete DevOps workflow using Terraform, Ansible, Doc
 ## URLs
 - Web Application: https://web.vsjen.my
 - Monitoring (Grafana): https://monitoring.vsjen.my
-- GitHub Repository: https://github.com/vsjen2025/devops-bootcamp-project
+- GitHub Repository: https://github.com/vsjen2025/devops-bootcamp-project1
 
 ## Tools
 Terraform, Ansible, Docker, AWS EC2, ECR, S3, Prometheus, Grafana, Cloudflare
