@@ -10,4 +10,3 @@
       shell: docker compose up -d
       args:
         chdir: /opt/monitoring
-        
